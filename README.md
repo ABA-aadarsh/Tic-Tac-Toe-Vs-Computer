@@ -20,3 +20,5 @@ The logic system I used for computer to choose position on the Tic Tac Toe board
     and if there are no such position then a random position will be selected
 
 This is the basic logic system here. Besides these there are few extra conditions mentioned while making first choice and second choice, this is to prevent traps and also to set up traps.
+
+More details are included in the file "app.js" through comments.
