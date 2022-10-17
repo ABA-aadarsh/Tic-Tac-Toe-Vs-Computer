@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <style>
+        /* this is to dynamically add animation for line */
+        </style>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="main-container">
+        <div class="title">
+            <h1>Tic Tac Toe</h1>
+            <p>-Can You Win Against Computer?</p>
+        </div>
+        <hr>
+        <div class="game-container">
+            <div class="turn">
+                <!-- whose turn -->
+                <div class="player">Player 
+                    <div class="checkbox"></div>
+                </div>
+                <div class="computer">Computer 
+                    <div class="checkbox"></div>
+                </div>
+            </div>
+            <h2 class="result hidden"></h2>
+            <div class="game-box">
+                <div id="box1" class="box"></div>
+                <div id="box2" class="box"></div>
+                <div id="box3" class="box"></div>
+                <div id="box4" class="box"></div>
+                <div id="box5" class="box"></div>
+                <div id="box6" class="box"></div>
+                <div id="box7" class="box"></div>
+                <div id="box8" class="box"></div>
+                <div id="box9" class="box"></div>
+
+                <div class="line hidden"></div>
+            </div>
+            
+            <button id="again" class="btn hidden">Play Again</button>
+        </div>
+        <div class="modal">
+            <div class="message">
+                <h2>Message!</h2>
+                <hr>
+                <p>I have tried my best to make this Tic Tac Toe program unbeatable. But since it's a "program", there could be chances that I have missed something. If you do actually beat it or find some bug, then please contact me at <span id="email">email here</span> so that we could make this more better.<br>Enjoy!</p>
+                <button class="start btn">Start</button>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
